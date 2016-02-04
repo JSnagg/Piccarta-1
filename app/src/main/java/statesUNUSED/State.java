@@ -1,7 +1,4 @@
-package states;
-
-import android.app.Activity;
-import android.os.Bundle;
+package statesUNUSED;
 
 /**
  * Created by 343076 on 31/01/2016.
@@ -14,6 +11,7 @@ public abstract class State{
         this.sm = sm;
     }
 
+    protected abstract void handleInput();
     protected abstract void update();
-
+    public abstract void dispose();
 }

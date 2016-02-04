@@ -1,4 +1,4 @@
-package states;
+package statesUNUSED;
 
 import java.util.Stack;
 
@@ -29,5 +29,4 @@ public class StateManager {
     public void update(){
         states.peek().update();
     }
-
 }
