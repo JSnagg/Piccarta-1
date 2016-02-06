@@ -1,18 +1,17 @@
 package com.jfsaaved.piccarta.main.activities;
 
-import android.app.Activity;
 import android.os.Bundle;
-
-import com.jfsaaved.piccarta.main.R;
+import android.support.v7.app.AppCompatActivity;
 
 
 /**
  * Created by Joseph on 2016-02-03.
  */
-public class LoginActivity extends Activity {
+public class LoginActivity extends AppCompatActivity {
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_login);
+
     }
+
 }

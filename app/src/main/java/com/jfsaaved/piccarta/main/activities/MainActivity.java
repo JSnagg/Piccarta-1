@@ -10,7 +10,7 @@ import com.jfsaaved.piccarta.main.R;
 
 public class MainActivity extends Activity {
 
-    private Toolbar supportActionBar;
+    Toolbar sActionBar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -43,6 +43,6 @@ public class MainActivity extends Activity {
     }
 
     public void setSupportActionBar(Toolbar supportActionBar) {
-        this.supportActionBar = supportActionBar;
+        sActionBar = supportActionBar;
     }
 }
